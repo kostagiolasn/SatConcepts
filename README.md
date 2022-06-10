@@ -31,7 +31,7 @@ For example,
 
 Will generate 50 random samples, and samples generated from latents that moved along 1st eigenvector with size/degree +-1.
 
-![Sample of closed form factorization](factor_index-1_degree-1.0.png)
+![Sample of closed form factorization](doc/factor_index-1_degree-1.0.png)
 
 ## Pretrained Checkpoints
 
