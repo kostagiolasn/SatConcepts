@@ -1,10 +1,10 @@
-# StyleGAN 2 in PyTorch
+# SWAGAN + SeFa
 
 Implementation of our SETN paper, entitled: "Unsupervised Discovery of Semantic Concepts in Satellite Imagery with Style-based Wavelet-driven Generative Models".
 
 ## Notice
 
-This implementation is based on the rosalinity StyleGAN2 one (SWAGAN included), which can be found [here](https://github.com/rosinality/stylegan2-pytorch).
+This implementation is heavily based on the rosalinity StyleGAN2 one (SWAGAN included), which can be found [here](https://github.com/rosinality/stylegan2-pytorch).
 
 ## Requirements
 
