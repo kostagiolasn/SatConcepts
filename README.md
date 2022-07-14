@@ -40,7 +40,7 @@ The pre-trained SWAGAN checkpoint can be found in Google Drive. It has been trai
 Sample from RESISC-45.
 
 ## contact
-**Please feel fre to get in touch at**: `n.kostagiolas@cyi.ac.cy`
+**Please feel free to get in touch at**: `n.kostagiolas@cyi.ac.cy`
 
 ## credits
 
