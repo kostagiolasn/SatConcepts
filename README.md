@@ -2,10 +2,6 @@
 
 Implementation of our SETN paper, entitled: "Unsupervised Discovery of Semantic Concepts in Satellite Imagery with Style-based Wavelet-driven Generative Models".
 
-## Notice
-
-This implementation is heavily based on the rosalinity StyleGAN2 one (SWAGAN included), which can be found [here](https://github.com/rosinality/stylegan2-pytorch).
-
 ## Requirements
 
 - PyTorch 1.3.1
@@ -33,20 +29,19 @@ Will generate 50 random samples, and samples generated from latents that moved a
 
 ![Sample of closed form factorization](doc/factor_index-1_degree-1.0.png)
 
-## Pretrained Checkpoints
+## pre-trained Checkpoints
 
 The pre-trained SWAGAN checkpoint can be found in Google Drive. It has been trained on the RESISC-45 dataset for 200.000 iterations.
 
-## Samples
+## samples
 
 ![Sample with truncation](doc/generations.png)
 
 Sample from RESISC-45.
 
-## License
+## contact
+**Please feel fre to get in touch at**: `n.kostagiolas@cyi.ac.cy`
 
-Model details and custom CUDA kernel codes are from official repostiories: https://github.com/NVlabs/stylegan2
+## credits
 
-Codes for Learned Perceptual Image Patch Similarity, LPIPS came from https://github.com/richzhang/PerceptualSimilarity
-
-To match FID scores more closely to tensorflow official implementations, I have used FID Inception V3 implementations in https://github.com/mseitzer/pytorch-fid
+Our implementation contains mostly code directly from [https://github.com/rosinality/stylegan2-pytorch](https://github.com/rosinality/stylegan2-pytorch), with minor alterations in order to appropriate pre-trained SWAGAN checkpoints to be loaded.
