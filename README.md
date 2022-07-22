@@ -31,7 +31,7 @@ Will generate 50 random samples, and samples generated from latents that moved a
 
 ## pre-trained Checkpoints
 
-The pre-trained SWAGAN checkpoint can be found in Google Drive. It has been trained on the RESISC-45 dataset for 200.000 iterations.
+The pre-trained SWAGAN checkpoint can be found [here](https://drive.google.com/file/d/19GvThGNywddLRJoWfCEbB3VT3Sz1LZjR/view?usp=sharing). It has been trained on the RESISC-45 dataset for 200.000 iterations.
 
 ## samples
 
