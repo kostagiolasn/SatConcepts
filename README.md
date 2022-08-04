@@ -2,8 +2,6 @@
 
 ## [ [paper](https://arxiv.org/abs/2208.02089) | [project page](https://kostagiolasn.github.io/setn2022/index.html) | [video](-)]
 
-![main.jpg](./images/main.jpg)
-
 > **Unsupervised Discovery of Semantic Concepts in Satellite Imagery with Style-based Wavelet-driven Generative Models**<br>
 > Nikos Kostagiolas, Mihalis A. Nicolaou, Yannis Panagakis<br>
 > https://arxiv.org/abs/2208.0208 <br>
