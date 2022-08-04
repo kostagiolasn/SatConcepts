@@ -1,6 +1,14 @@
-# SWAGAN + SeFa
+# Unsupervised Discovery of Semantic Concepts in Satellite Imagery with Style-based Wavelet-driven Generative Models
 
-Implementation of our SETN paper, entitled: "Unsupervised Discovery of Semantic Concepts in Satellite Imagery with Style-based Wavelet-driven Generative Models".
+## [ [paper](https://arxiv.org/abs/2208.02089) | [project page](https://kostagiolasn.github.io/setn2022/index.html) | [video](-)]
+
+![main.jpg](./images/main.jpg)
+
+> **Unsupervised Discovery of Semantic Concepts in Satellite Imagery with Style-based Wavelet-driven Generative Models**<br>
+> Nikos Kostagiolas, Mihalis A. Nicolaou, Yannis Panagakis<br>
+> https://arxiv.org/abs/2208.0208 <br>
+>
+> **Abstract**: In recent years, considerable advancements have been made in the area of Generative Adversarial Networks (GANs), particularly with the advent of style-based architectures that address many key shortcomings - both in terms of modeling capabilities and network interpretability. Despite these improvements, the adoption of such approaches in the domain of satellite imagery is not straightforward. Typical vision datasets used in generative tasks are well-aligned and annotated, and exhibit limited variability. In contrast, satellite imagery exhibits great spatial and spectral variability, wide presence of fine, high-frequency details, while the tedious nature of annotating satellite imagery leads to annotation scarcity - further motivating developments in unsupervised learning. In this light, we present the first pre-trained style- and wavelet-based GAN model that can readily synthesize a wide gamut of realistic satellite images in a variety of settings and conditions - while also preserving high-frequency information. Furthermore, we show that by analyzing the intermediate activations of our network, one can discover a multitude of interpretable semantic directions that facilitate the guided synthesis of satellite images in terms of high-level concepts (e.g., urbanization) without using any form of supervision. Via a set of qualitative and quantitative experiments we demonstrate the efficacy of our framework, in terms of suitability for downstream tasks (e.g., data augmentation), quality of synthetic imagery, as well as generalization capabilities to unseen datasets.
 
 ## Requirements
 
@@ -38,6 +46,20 @@ The pre-trained SWAGAN checkpoint can be found [here](https://drive.google.com/f
 ![Sample with truncation](doc/generations.png)
 
 Sample from RESISC-45.
+
+# citation
+
+If you find our work useful, please consider citing our paper:
+
+```bibtex
+@article{2208.02089,
+Author = {Nikos Kostagiolas and Mihalis A. Nicolaou and Yannis Panagakis},
+Title = {Unsupervised Discovery of Semantic Concepts in Satellite Imagery with Style-based Wavelet-driven Generative Models},
+Year = {2022},
+Eprint = {arXiv:2208.02089},
+Doi = {10.1145/3549737.3549777},
+}
+```
 
 ## contact
 **Please feel free to get in touch at**: `n.kostagiolas@cyi.ac.cy`
