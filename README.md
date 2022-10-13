@@ -11,7 +11,6 @@
 ## Requirements
 
 - PyTorch 1.3.1
-- Anaconda3
 - CUDA/10.1.243
 - GCC/8.2.0-2.31.1
 
