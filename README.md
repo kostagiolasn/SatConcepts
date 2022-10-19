@@ -1,4 +1,4 @@
-# Unsupervised Discovery of Semantic Concepts in Satellite Imagery with Style-based Wavelet-driven Generative Models
+# SatConcepts: Implementation of our SETN 2022 paper entitled "Unsupervised Discovery of Semantic Concepts in Satellite Imagery with Style-based Wavelet-driven Generative Models"
 
 ## [ [paper](https://arxiv.org/abs/2208.02089) | [project page](https://kostagiolasn.github.io/setn2022/index.html) | [video](-)]
 
